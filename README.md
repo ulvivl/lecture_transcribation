@@ -1,4 +1,4 @@
-# intelligent_assistant
+# lecture_transcribation
 
 Данный репозиторий создан в рамках хакатона "Цифровой прорыв". 
 
