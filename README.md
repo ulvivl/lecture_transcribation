@@ -20,7 +20,7 @@ make whisper - consumer with whisperx for transcribation,
 make llm_glosary - consumer with Mistral7B for generation glosary, 
 make llm_conspect - with Mistral7B for generation conspect
 
-### Подходы
+## Подходы
 1) Транскрибация
    - были проведены эксперименты с моделями `whisper-large` и `whisperX`
    - итоговое решение основывается на модели `whisperX` зарекомендовавшей себя как решение, обеспечивающее необходимое качество транскрибаций и высокую скорость работы
