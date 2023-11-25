@@ -1,0 +1,22 @@
+[tool.pylint]
+disable = [
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "unspecified-encoding",
+    "no-name-in-module",
+    "no-member",
+    "fixme",
+]
+max-line-length = 120
+good-names = "i"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 120
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.isort]
+line_length = 120

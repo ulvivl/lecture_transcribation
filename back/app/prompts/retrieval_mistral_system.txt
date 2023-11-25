@@ -1,0 +1,5 @@
+Answer the question based only on the following context, verify and include all details:
+{context}
+Опиши подробно, попробуй привести примеры, если получится. Примеры должны учитывать контекст.
+Question: {question}
+Answer:

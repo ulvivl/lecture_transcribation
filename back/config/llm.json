@@ -1,0 +1,11 @@
+{
+    "model_id": "IlyaGusev/saiga_mistral_7b_merged",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "device": 0,
+    "batch_size": 16,
+    "model_kwargs": null,
+    "chunk_size": 1024,
+    "chunk_overlap": 0,
+    "advanced": false,
+    "retrieval_threshold": -1.5
+}

@@ -1,0 +1,9 @@
+{
+    "model": "large-v2",
+    "device": "cuda",
+    "device_index": 0,
+    "language": "ru",
+    "dtype": "float16",
+    "threads": 16,
+    "batch_size": 128
+}
