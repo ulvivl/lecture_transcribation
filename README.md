@@ -2,6 +2,8 @@
 
 Данный репозиторий создан в рамках хакатона "Цифровой прорыв". 
 
+# ВЕСЬ КОД В ВЕТКЕ dev
+
 ## Поставленная задача:
 Создать интеллектуального ассистента методиста, способного транскрибировать лекцию и создать список основных терминов.
 
@@ -12,13 +14,21 @@
 
 ## Процесс запуска:
 **1) Запуск бэкенда:**
-
+```bash
 make setup
 run all together: 
 make application - web app, 
 make whisper - consumer with whisperx for transcribation, 
 make llm_glosary - consumer with Mistral7B for generation glosary, 
 make llm_conspect - with Mistral7B for generation conspect
+```
+
+**2) Запуск фронта:**
+```bash
+cd ./front
+yarn install
+yarn start
+```
 
 ## Подходы
 1) Транскрибация
