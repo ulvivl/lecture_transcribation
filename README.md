@@ -1,6 +1,7 @@
 # lecture_transcribation
 
 Данный репозиторий создан в рамках хакатона "Цифровой прорыв". 
+Презентация: https://docs.google.com/presentation/d/1Ny17g1TYdZ-pausKevPJIfbtxVnKugiMXOYhkQMXY3Y/edit?usp=sharing
 
 # ВЕСЬ КОД В ВЕТКЕ dev
 
