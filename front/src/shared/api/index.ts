@@ -33,7 +33,12 @@ export class APIClient {
       ...customConfig,
       signal: controller.signal
     }
-    const response = await fetch(`${this.baseURL}${endpointWithParams}`, config)
+    const response = await fetch(`${this.baseURL}${endpointWithParams}`, config).then(response => {
+      if (!response.ok) {
+        throw new Error(`Ошибка запроса`)
+      }
+      return response.json()
+    })
 
     clearTimeout(timer)
 
@@ -61,4 +66,4 @@ export class APIClient {
   }
 }
 
-export const apiClient = new APIClient(`${process.env.API_BASE_URL}/api/v1/`)
+export const apiClient = new APIClient(`${process.env.API_BASE_URL}:8000/v1/`)

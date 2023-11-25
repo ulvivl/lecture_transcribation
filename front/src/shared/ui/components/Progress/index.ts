@@ -1,0 +1,1 @@
+export { CircularWithValueLabel } from "@shared/ui/components/Progress/ui"

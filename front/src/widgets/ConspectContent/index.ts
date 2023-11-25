@@ -1,0 +1,1 @@
+export { ConspectContent } from "@widgets/ConspectContent/ui"

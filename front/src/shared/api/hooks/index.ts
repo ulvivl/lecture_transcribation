@@ -3,7 +3,7 @@ import {
   QueryFunction,
   UseQueryOptions,
   UseQueryResult,
-  useQuery
+  useQuery,
 } from "react-query"
 
 type TGetMethod<T, TQueryFnData, TQueryKey extends QueryKey = QueryKey> = (data: T) => {
